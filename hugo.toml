@@ -62,10 +62,10 @@
     # Customized info shown in header of the page
     [params.header]
         # Website title for header banner.
-        title = "My New Hugo Site"
+        title = "marupakablog"
 
         # Subtitle for this site, used in homepage only
-        subtitle = "A Site Built by Hugo"
+        subtitle = "AI使って調べた備忘録"
 
         # Config about your's site logo, remove this item to hide the logo
         [params.header.logo]
@@ -79,7 +79,7 @@
     # Customized info shown in footer of the page
     [params.footer]
         # CopyRight string shown in the footer. Keep it an empty string or remove this item will hide it from the page.
-        copyrightStr = "All Rights Reserved ®."
+        copyrightStr = "© 2025 Maru"
 
         # Should show the counter in the footer or not
         # In the home page, it will show the numbers of all pages
@@ -103,7 +103,7 @@
         # The format of the `modifiedTime`.
         # Refer to page https://gohugo.io/functions/format/ for more detail.
         # Below is the default format, please do not remove it, unless you set `false` in `modifiedTime` field.
-        dateFormat = "Jan 02 2006 15:04:05"
+        dateFormat = "2006-01-02"
 
         # Should show the current git HEAD hash or not
         # To make this show up correctly, please follow the prerequisites in page
@@ -131,7 +131,7 @@
         # 1. the footer of all page
         # 2. the author filed in the single page. (this could be overwritten by the frontmatter of the single page.)
         # Keep it an empty string or remove this item will hide it from the page
-        author = "Jing Wang"
+        author = "Maru"
         
         # Website description for RSS and SEO. Theme will generate a <meta> tag for this item
         description = "This is my new hugo site"
@@ -142,7 +142,7 @@
     # Parameters applied in the homepage only
     [params.homePage]
         # Long Descripition shown in home page "Start Block". Is is recommended to have the paragraph shorter than 100 words.        
-        siteLongDescription = "Hugo is a fast and easy-to-use static website generator written in Go. It renders a complete HTML website from content and templates in a directory, utilizing Markdown files for metadata. It's optimized for speed and suitable for various website types."
+        siteLongDescription = "後で振り返るために、調べたことを簡潔にまとめています。重要すぎることはあえて触れません。"
 
         # If you don't like the title of "siteLongDescription" be "Start" (default), 
         # you may change the value of this item to "Description" or something you like.

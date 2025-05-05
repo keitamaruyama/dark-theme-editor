@@ -62,10 +62,10 @@
     # Customized info shown in header of the page
     [params.header]
         # Website title for header banner.
-        title = "mlog"
+        title = "marublog"
 
         # Subtitle for this site, used in homepage only
-        subtitle = "あとで見るかも知れない備忘録"
+        subtitle = ""
 
         # Config about your's site logo, remove this item to hide the logo
         [params.header.logo]
@@ -142,7 +142,7 @@
     # Parameters applied in the homepage only
     [params.homePage]
         # Long Descripition shown in home page "Start Block". Is is recommended to have the paragraph shorter than 100 words.        
-        siteLongDescription = "一度調べたのにまた忘れた、そんな経験から生まれた備忘録。思いついたことや日々の記録を、気ままに書いています。"
+        siteLongDescription = "思いついたことや日々の記録を気ままに書いています。"
 
         # If you don't like the title of "siteLongDescription" be "Start" (default), 
         # you may change the value of this item to "Description" or something you like.

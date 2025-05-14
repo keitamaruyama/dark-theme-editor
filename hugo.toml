@@ -26,6 +26,7 @@
 
         # Do you need to add any external CSS? List their URL in an array.
         # If only a few pages need the extra style files, list them in the page metadata.
+        # These URLs will be inserted into <link> tags directly without any check.
         externalCss = []
 
         # Like the one above, but this will download a local copy and combine it with 
